@@ -54,9 +54,10 @@ body {
 .banner {
   height: fit-content;
   padding: 40px 0;
-  color: white;
+  color: red;
   background-image: url("https://resenhascaoticas.files.wordpress.com/2018/12/tumblr_pgj53xntkq1qzulc1o1_1280.jpg");
   background-size: cover;
+  
 }
 
 .banner .container {
@@ -85,8 +86,9 @@ body {
 /* missao visao valores */
 
 .social {
-  background-color: #e5e5e5;
+  background-color: orangered;
   display: flex;
+  
 
 }
 
@@ -108,6 +110,15 @@ body {
   text-align: center;
 }
 
+.cor .container .frase {
+color: white;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
 .box {
   margin: 10px;
   display: flex;
@@ -118,23 +129,34 @@ body {
 
 
 .box {
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.img img{
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 10%;
+}
+
+
+
+
 
 /* FOOTER */
 
 .footer {
-  background-color: #FF4500;
+  background-color: orangered;
   height: 150px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: flex;
   font-size: 15px;
   /* background-image: url(""); */
-  background: linear-gradient(0, black, black);
+  /* background: linear-gradient(0, black, black); */
 
 }
 
@@ -189,19 +211,28 @@ body {
 .stars2{
 	animation: anim-stars 10s linear infinite;
 }
+/* AUTORA */
+.body img {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 10%;
+  
+}
 
-
-/* LOGIN */
+/* CURIOSIDADES */
 
 .banner .container .card {
-  background-color: #e5e5e5;
+  background-color: black;
+  opacity: 0.8; 
   height: max-content;
   width: 400px;
   display: flex;
   flex-direction: column;
-  color: palevioletred;
+  color: white;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 .card {
@@ -225,7 +256,16 @@ button {
   cursor: pointer;
 }
 
-/* FORMULARIO */
+.img img{
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ border-radius: 10%;
+}
+
+
+/* INDIQUE */
 
 .alerta_erro{
   display: flex;
@@ -239,7 +279,7 @@ button {
   width: 230px;
   position: fixed;
   border-radius: 4px;
-  border: #e6005a 3px solid;
+  border: orange 3px solid;
   padding: 10px;
   margin-right: 10%;
 }
@@ -261,10 +301,11 @@ button {
 
 input {
   margin-bottom: 10px;
-  border: 2px solid #32b9cd;
+  border: 2px solid orangered;
+  background-color: #d0e362;
   padding: 10px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 20px; 
 }
 
 .btn {
@@ -275,7 +316,7 @@ input {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: orangered;
   width: 120px;
   align-self: center;
   margin-top: 5px;
@@ -353,7 +394,7 @@ input {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: #e6005a;
+  background-color: orange;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -362,14 +403,14 @@ input {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid #e6005a;
+  border: 3px solid orange;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-  color: #e6005a;
+  color:orange;
   padding: 0;
   margin: 0;
 }
@@ -393,12 +434,25 @@ input {
   cursor: pointer;
 }
 
-/* pagina extra - simulador */
-.simulador {
+/* pagina extra - autora */
+.autora {
   color: white;
+
 
 }
 
-.simulador .container {
+.autora .container {
+  flex-direction: column
+}
+
+/* curiosidades */
+
+.curiosidades {
+  color: white;
+
+
+}
+
+.curiosidades .container {
   flex-direction: column
 }
