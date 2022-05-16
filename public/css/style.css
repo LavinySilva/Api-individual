@@ -12,20 +12,24 @@ body {
   width: 80%;
   margin: auto;
   display: flex;
+  color: #FFE4C4;
+  
 }
 
-.header {
-  border-bottom: 3px solid #FF4500;
-}
+ .header {
+background-color: black;
+}  
 
 .header .container {
   justify-content: space-between;
   color: #FF4500;
 }
 
+
 .header a {
   text-decoration: none;
-  color: #FF4500;
+  color: #FFE4C4;
+  
 }
 
 .agora {
@@ -38,26 +42,29 @@ body {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  color: #FF4500;
+  color: #FFE4C4;
 }
 
 
 .titulo {
-  color: #FF4500;
-  width: fit-content;
+  color: #FFE4C4;
+  width: 50%;
   font-weight: 500;
+  
 }
 
 
 /* BANNER */
 
 .banner {
+ 
   height: fit-content;
-  padding: 40px 0;
+  padding: 7%;
   color: red;
   background-image: url("https://resenhascaoticas.files.wordpress.com/2018/12/tumblr_pgj53xntkq1qzulc1o1_1280.jpg");
   background-size: cover;
-  
+  border-radius: 50%;
+
 }
 
 .banner .container {
@@ -86,7 +93,8 @@ body {
 /* missao visao valores */
 
 .social {
-  background-color: orangered;
+  border-color: #FF4500;
+  background-color: black;
   display: flex;
   
 
@@ -98,7 +106,7 @@ body {
 
 .box img {
   width: 170px;
-  border-radius: 50%;
+  border-radius: 100%;
   
 }
 
@@ -111,10 +119,12 @@ body {
 }
 
 .cor .container .frase {
-color: white;
+color:  #FFE4C4;
 display: block;
 margin-left: auto;
 margin-right: auto;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 
 }
 
@@ -137,41 +147,25 @@ margin-right: auto;
 
 .img img{
   width: 600px;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
  border-radius: 10%;
+ border-color: #FF4500;
 }
 
-
-
-
-
-/* FOOTER */
-
-.footer {
-  background-color: orangered;
-  height: 150px;
-  color: rgb(255, 255, 255);
-  display: flex;
-  font-size: 15px;
-  /* background-image: url(""); */
-  /* background: linear-gradient(0, black, black); */
-
-}
-
-.footer .container {
-  justify-content: space-around;
-}
-
-.footer.stars{
+.img .stars{
   flex-direction: column;
+ 
 }
 .stars{
-  flex-direction: column;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row-reverse;
 	width: 8px;
 	height: 5px;
-	border-radius: 590%;
+	border-radius:100%;
 	box-shadow: 500px 300px orange,
   100px 80px orange,
   80px 120px orange,
@@ -194,9 +188,9 @@ margin-right: auto;
 }
 
 .stars2{
-  flex-direction: column;
-  width: 2px;
-  height: 1px;
+  flex-direction: row-reverse;
+  width: 8px;
+  height: 5px;
   border-radius: 100%;
   box-shadow: 15px 15px orange,
   100px 80px orange,
@@ -211,14 +205,40 @@ margin-right: auto;
 .stars2{
 	animation: anim-stars 10s linear infinite;
 }
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #F4A460;
+  height: 150px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 15px;
+  /* background-image: url(""); */
+  /* background: linear-gradient(0, black, black); */
+
+}
+
+.footer .container {
+  justify-content: space-around;
+}
+
+
 /* AUTORA */
 .body img {
   width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
- border-radius: 10%;
+ border-radius: 50%;
   
+}
+.autora .livros {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* CURIOSIDADES */
@@ -232,7 +252,7 @@ margin-right: auto;
   flex-direction: column;
   color: white;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .card {
@@ -261,7 +281,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
- border-radius: 10%;
+ border-radius: 50%;
 }
 
 
