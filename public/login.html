@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AcquaTec | Login</title>
+    <title> BOOKS | Login</title>
 
     <script src="./js/funcoes.js"></script>
 
@@ -24,7 +24,7 @@
 
     <div class="header">
         <div class="container">
-            <h1 class="titulo"> Trono de Vidro</h1>
+            <h1 class="titulo">BOOKS</h1>
             <ul class="navbar">
                 <li>
                     <a href="./index.html">
@@ -32,38 +32,53 @@
                     </a>
                 </li>
                 <li>
-                    <a href="./autora.html"> Autora</a>
+                    <a href="./textos.html">Textos</a>
                 </li>
                 <li>|</li>
                 <li class="agora">
-                    <a href="./curiosidades.html">Curiosidades </a>
+                    <a href="./cadastro.html"> Cadastro</a>
                 </li>
                 <li>
-                    <a href="./personagem.html"> Personagem</a>
+                    <a href="./login.html"> Login</a>
                 </li>
             </ul>
         </div>
     </div>
 
-    <div class="curiosidades">
+
+    <div class="banner">
+        <div class="alerta_erro">
+            <div class="card_erro" id="cardErro">
+                <span id="mensagem_erro"></span>
+            </div>
+        </div>
         <div class="container">
+            <div class="card">
+                <h2>Olá de volta!</h2>
+                <div class="formulario">
 
 
-            <h2>Sarah J. Maas</h2>
-            <p> O enredo da série é baseada em Cinderela, com a premissa de "E se Cinderela não fosse uma serva, mas uma assassina? E se ela não for ao baile para encontrar o príncipe, mas para matá-lo, em vez disso?" </p>
-            <p>-- </p>
-            <p>--</p>
+                    <span class="tipo_campo">E-mail:</span>
+                    <input id="email_input" type="text" placeholder="Login">
 
+                    <span class="tipo_campo">Senha:</span>
+                    <input id="senha_input" type="password" placeholder="******">
+
+                    <button class="btn" onclick="entrar()">Entrar</button>
+
+
+                </div>
+
+                <div id="div_aguardar" class="loading-div">
+                    <img src="./assets/circle-loading.gif" id="loading-gif">
+                </div>
+
+                <div id="div_erros_login">
+
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class=" img">
-        <p>
-            <img src="https://i.pinimg.com/originals/4c/26/dd/4c26dd064e1e98b070b40b70d13cba62.gif" alt="curiosidades">
-        </p>
-    </div>
-
-
 
     <!--footer inicio-->
     <div class="footer">
@@ -77,7 +92,7 @@
 
 </html>
 
-<!-- <script>
+<script>
 
 
     function entrar() {
@@ -147,6 +162,6 @@
 
     function sumirMensagem() {
         cardErro.style.display = "none"
-    } -->
+    }
 
 </script>
