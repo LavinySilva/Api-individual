@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -48,58 +48,59 @@
     <p></p>
    
     <div class="banner">
-      
         <div class="container">
-            <section class="slider">
-                <input name='slide' type="radio" > 
-                <input name='slide' type="radio" checked>
-                <input name='slide' type="radio">
-                <input name='slide' type="radio">
             
-                <div class="slider-content">
-                    <div class="slider-item">1</div>
-                    <div class="slider-item">2</div>
-                    <div class="slider-item">3</div>
-                    <div class="slider-item">4</div>
-                    
-                </div>
-            </section>
-        
-        
-        </div>
-        
+            <img class="Slides" src="https://images-na.ssl-images-amazon.com/images/I/81sppP3MAkL.jpg">
+            <img class="Slides" src="https://lojasaraiva.vteximg.com.br/arquivos/ids/3247020/1002870750.jpg?v=637034199383200000">
+            <img class="Slides" src="https://www.livrosefuxicos.com/wp-content/uploads/2014/02/COMO_EU_ERA_ANTES_DE_VOCE_JOJO_MOYES_Resenha.jpg">
+            <img class="Slides" src="https://images-na.ssl-images-amazon.com/images/I/41QgmlY9JGL._SX346_BO1,204,203,200_.jpg">
+            
+        </div>    
+        </div> 
     </div>
 
+    <div class="cor">
+        <div class="container">
+                <div class="frase">
+                    <h1>
+                        Autores
+                    </h1>
+                </div>
+            </div>
+        </div>
+     <div class="autores">
+        <img class="mySlides" src="https://www.mundodasresenhas.com.br/wp-content/uploads/2022/02/Sarah.jpeg" style="border-radius: 5% ;">
+        <img class="mySlides" src="https://pbs.twimg.com/profile_images/1496063546102321154/bgpp6gfq_400x400.jpg" style="border-radius: 5%;">
+        <img class="mySlides" src="https://www.inlivros.net/wp-content/uploads/Jojo-Moyes.jpg" style="border-radius: 5%;">
+        <img class="mySlides" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Patrick-rothfuss-2014-kyle-cassidy.jpg/1200px-Patrick-rothfuss-2014-kyle-cassidy.jpg" style="border-radius: 5%;">
+    </div> 
 
-
+    <div></div>
 
     <div class="social">
         <div class="container">
             <div class="box">
-
-
-            <div class="box">
-                <!-- <img src="https://images-na.ssl-images-amazon.com/images/I/81sppP3MAkL.jpg"
-                    alt="icone da Elide">
-                <h4>Trono de Vidro</h4> -->
-                <p> </p>
-            </div>
-
-            
+            </div> 
         </div>
     </div>
     </div>
-
+    <div class="cor">
+        <div class="container">
+                <div class="frase">
+                    <h1>
+                        Personagem da semana:
+                    </h1>
+                </div>
+            </div>
+        </div>
     <div class=" img">
-
         <p>
             <img src="https://i.pinimg.com/564x/ec/64/ed/ec64ed532b5b9fb01e19ce4c10301aac.jpg" alt="curiosidades">
-            
-
         </p>
         <div class="stars"></div>
             <div class="stars2"></div>
     </div>
+
    
     <div class="cor">
         <div class="container">
@@ -111,11 +112,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
 
 
@@ -134,3 +130,23 @@
 </body>
 
 </html>
+<script>
+    var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+

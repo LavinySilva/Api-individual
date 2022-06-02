@@ -9,11 +9,10 @@ body {
 
 
 .container {
-
   width: 80%;
   margin: auto;
   display: flex;
-  color: #FFE4C4;
+  color: antiquewhite ;
   border-bottom: red;
   
 }
@@ -41,43 +40,31 @@ background-color: black;
   color: 	#836FFF;
   
 }
-.slider{
-  overflow: hidden;
 
+.slider {
+  padding: auto;
+  height: 500px;
+  width: 500px;
 }
-.slider > .slider-content{
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  transition: all 500ms ease;
-
-}
-
-.slider > .slider-content > .slider-item {
-  flex: 0 0 auto;
-  width: 100%;
-  
+.autores{
+  display: block;
+  margin-left: 32%;
+  width: 100px;
+  height: 20%;
+  display: block;
+  padding: auto;
+  border-radius: 20px;
 }
 
-.slider > input:nth-child(1):checked ~ .slider-content{
-  transform: translateX(0%);
-  
+img {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
 }
-.slider > input:nth-child(2):checked ~ .slider-content{
-  transform: translateX(-100%);
-}
-.slider > input:nth-child(3):checked ~ .slider-content{
-  transform: translateX(-200%);
-}
-
-.slider > input:nth-child(4):checked ~ .slider-content{
-  transform: translateX(-300%);
-}
-
 
  .img {
   display: block;
-  margin-left: 30%;
+  margin-left: 28%;
   width: 10%;
   height: 20%;
   display: block;
@@ -98,19 +85,14 @@ background-color: black;
   color: #836FFF;
 }
 
-
 .titulo {
   color: #836FFF;
   width: 50%;
   font-weight: 500;
- 
 }
 
-
 /* BANNER */
-
 .banner {
- 
   height: fit-content;
   padding: 10%;
   color: red;
@@ -119,7 +101,6 @@ background-color: black;
   background-size: cover;
   background-blend-mode: darken;
   border-radius: 0; 
-
 }
 
 .banner .container {
@@ -127,8 +108,6 @@ background-color: black;
   font-size: 36px;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .tamanho-conteudo { 
@@ -164,13 +143,13 @@ background-color: black;
   display: flex;
   width: 100px;
   border-radius: 10% ;
-  border-color: #FFE4C4;
+  border-color: #836FFF;
   
 }
 
 .social .container .boxes {
   display: flex;
-  border-bottom: #FFE4C4;
+  border-bottom: #fff;
 }
 
 .social p {
@@ -178,7 +157,7 @@ background-color: black;
 }
 
 .cor .container .frase {
-color:  #FFE4C4;
+color: antiquewhite;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -209,8 +188,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   margin-left: auto;
   margin-right: auto;
- border-radius: 10%;
- border-color: #FF4500;
+  border-radius: 10%;
+  border-color: #FF4500;
 }
 
 .img .stars{
@@ -290,7 +269,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: block;
   margin-left: auto;
   margin-right: auto;
- border-radius: 50%;
+  border-radius: 50%;
   
 }
 .autora .livros {
@@ -303,15 +282,16 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 /* CADASTRO */
 
 .banner .container .card {
-  background-color: black;
-  opacity: 0.8;  
+  background-color: #836FFF;
+  opacity: 10;  
   height: auto;
-  width: 300px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   color: white;
   align-items: center;
   border-radius: 0;
+
 }
 
 .card {
@@ -528,7 +508,6 @@ input {
 
 .curiosidades {
   color: white;
-
 
 }
 
