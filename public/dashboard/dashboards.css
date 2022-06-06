@@ -8,7 +8,7 @@ body {
 .dash-right .avisos {
   width: 100%;
   /* border: 3px solid pink; */
-  color: rgb(216, 216, 216);
+  color: #836FFF ;
   font-family: "Exo 2", sans-serif;
 }
 
@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .dash-right .avisos .container .div-form {
@@ -38,7 +39,7 @@ body {
 .dash-right .avisos .div-form textarea {
   width: 100%;
   /* color: #E6005A; */
-  border: 3px solid #e6005a;
+  border: 3px solid plum;
   background-color: white;
   border-radius: 5px;
 }
@@ -52,7 +53,7 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #836FFF;
   width: 120px;
 }
 
@@ -65,7 +66,7 @@ body {
   font-size: 14px;
   padding: 5px 8px;
   color: white;
-  background-color: #e6005a;
+  background-color: #836FFF;
   width: 80px;
 }
 
@@ -76,7 +77,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  border-bottom: 3px solid #e6005a;
+  border-bottom: 3px solid #836FFF;
   padding: 20px;
 }
 
@@ -89,7 +90,7 @@ body {
 }
 
 .div-results .feed-container {
-  background-color: #212124;
+  background-color: black;
   border-radius: 5px;
   margin-bottom: 80px;
 }
@@ -97,6 +98,7 @@ body {
 .div-buttons {
   display: flex;
   justify-content: flex-end;
+  background-color:#836FFF;
 }
 
 .div-buttons > * {
@@ -106,7 +108,7 @@ body {
 /* pagina graficos */
 
 .dash-header {
-  background-color: #212124;
+  background-color: black;
 }
 
 .dash {
@@ -114,7 +116,7 @@ body {
   position: relative;
   top: 0;
   left: 25%;
-  background-color: #161618;
+  background-color:black;
 
   /* width: 75%;
     display: flex;
@@ -134,28 +136,25 @@ body {
 }
 
 .perigo-frio {
-  background-color: #5c6bc0;
-}
-
-.perigo-quente {
-  background-color: #ff7043;
+  background-color:#836FFF;
 }
 
 .alerta-frio {
-  background-color: #42a5f5;
+  background-color: 	#6495ED;
 }
 
 .alerta-quente {
-  background-color: #ffee58;
+  background-color:	#EE82EE;
 }
 
 .ideal {
-  background-color: #9ccc65;
+  background-color: plum;
 }
 
 .item-regua {
   padding: 5px;
-  width: 15%;
+  width: 20%;
+  height: 20%;
   margin: 5px;
   text-align: center;
   padding-top: 15px;
@@ -179,7 +178,7 @@ body {
   text-align: center;
   height: 180px;
   justify-content: right;
-  background-color: #212124;
+  background-color: black;
   font-size: 20px;
 }
 
@@ -219,6 +218,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  width: 750px;
 }
 
 .graph {
@@ -234,6 +234,6 @@ body {
   font-size: 18px;
   padding: 10px 15px;
   color: white;
-  background-color: #e6005a;
+  background-color: #836FFF;
   margin: 5px;
 }

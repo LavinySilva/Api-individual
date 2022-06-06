@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AcquaTec | Tempo Real</title>
+    <title> BOOKS | Tempo Real</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="dashboards.css">
@@ -18,21 +18,21 @@
         rel="stylesheet">
 </head>
 
-<body onload="validarSessao(), atualizacaoPeriodica()">
+<body onload="validarSessao(), atualizacaoPeriodica()" style="background-color: #836FFF ;">
 
     <div class="janela">
 
 
         <div class="header-left dash-header">
 
-            <h1>AcquaTec</h1>
+            <h1 style="color: #836FFF; text-shadow: 2px 2px plum;">BOOKS</h1>
 
             <div class="hello">
-                <h3>Olá, <span id="b_usuario">usuário</span>!</h3>
+                <h3 style="color: #836FFF ;">Olá, <span id="b_usuario">usuário</span>!</h3>
             </div>
 
             <div class="btn-nav">
-                <h3>Aquários</h3>
+                <h3> Votação</h3>
             </div>
 
             <div class="btn-nav-white">
@@ -43,11 +43,11 @@
 
             <div class="btn-nav-white">
                 <a href="./mural.html">
-                    <h3>Mural de Avisos</h3>
+                    <h3> Publique seu texto</h3>
                 </a>
             </div>
 
-            <div class="btn-logout" onclick="limparSessao()">
+            <div class="btn-logout" onclick="limparSessao()" style="background-color: #836FFF ;">
                 <h3>Sair</h3>
             </div>
 
@@ -56,62 +56,24 @@
         <div class="dash">
             <div class="regua">
                 <div class="item-regua perigo-frio">
-                    <h4>Perigo</h4>
-                    <h2>0°C</h2>
+                    <h4>Livro 1</h4>
+                    <h2> Vote:<input> <button style="border-radius:10px ;">Enviar</button></h2>
                 </div>
                 <div class="item-regua alerta-frio">
-                    <h4>Alerta</h4>
-                    <h2>0°C</h2>
+                    <h4>Livro 2</h4>
+                    <h2>Vote:<input> <button style="border-radius:10px ;">Enviar</button></h2>
                 </div>
                 <div class="item-regua ideal">
-                    <h4>Ideal</h4>
-                    <h2>0°C</h2>
+                    <h4>Livro 3</h4>
+                    <h2>Vote:<input> <button style="border-radius:10px ;">Enviar</button></h2>
                 </div>
                 <div class="item-regua alerta-quente">
-                    <h4>Alerta</h4>
-                    <h2>0°C</h2>
+                    <h4>Livro 4</h4>
+                    <h2>Vote:<input> <button style="border-radius:10px ;">Enviar</button></h2>
                 </div>
-                <div class="item-regua perigo-quente">
-                    <h4>Perigo</h4>
-                    <h2>0°C</h2>
-                </div>
+               
             </div>
 
-            <div class="cards">
-                <div class="card">
-                    <h1>Aquário 1</h1>
-                    <div class="temperatura">
-                        <p id="temp_aquario_1">-°C</p>
-                    </div>
-                    <div class="cor-alerta" id="card_1"></div>
-                </div>
-                <div class="card">
-                    <h1>Aquário 1</h1>
-                    <div class="temperatura">
-                        <p id="temp_aquario_2">-°C</p>
-                    </div>
-                    <div class="cor-alerta" id="card_2"></div>
-
-                </div>
-                <div class="card">
-                    <h1>Aquário 1</h1>
-                    <div class="temperatura">
-                        <p id="temp_aquario_3">-°C</p>
-                    </div>
-                    <div class="cor-alerta ideal" id="card_3"></div>
-                </div>
-                <div class="card">
-                    <h1>Aquário 1</h1>
-                    <div class="temperatura">
-                        <p id="temp_aquario_4">-°C</p>
-                    </div>
-                    <div class="cor-alerta" id="card_4"></div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
 
 
 </body>

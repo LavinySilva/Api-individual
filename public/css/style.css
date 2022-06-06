@@ -6,8 +6,6 @@ body {
   font-family: 'Barlow', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: black;
 }
-
-
 .container {
   width: 80%;
   margin: auto;
@@ -15,19 +13,47 @@ body {
   color: antiquewhite ;
   border-bottom: red;
 }
- .quemsomos img{
-  justify-self: center;
+ .quemsomos1 img{
+  margin: 20px ;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  padding: 5%;
+  margin-top: 50px;
+  margin-left: -50px;
+  border: ridge plum;
+}
+.quemsomos2 img{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; 
+  position:absolute;
+	left:50%;
+	top:50%;
+	margin-left: 199px;
+	margin-top:850px;
+  border: ridge plum;
 }
 
-/* .p{
-  align-items: center;
+.sobrenos1{
+  width: 600px;
+  height: 500px;
+  display:inline-block;
+  vertical-align: middle;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  word-spacing: -20cm;
+  color: plum;
   
-} */
+}
+
+.sobrenos2{
+  margin-top: -90px;
+  margin-left: 120px;
+  width: 600px;
+  height: 500px;
+  display:inline-block;
+  vertical-align: middle;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: plum;
+}
 
 .header {
 background-color: black;
@@ -44,11 +70,14 @@ background-color: black;
 .header .container {
   justify-content: space-between;
   color: #FF4500;
+  text-shadow: 1px 1px plum;
+  
 }
 
 .header a {
   text-decoration: none;
   color: 	#836FFF;
+  text-shadow: 1px 1px plum;
 }
 
 .slider {
@@ -64,6 +93,16 @@ background-color: black;
   display: block;
   padding: auto;
   border-radius: 20px;
+  margin-top: -150px;
+}
+.fraseautor{
+  color: #836FFF;
+  text-shadow: 1px 1px plum;;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top:-230px;
 }
 
 img {
@@ -104,8 +143,6 @@ img {
   height: fit-content;
   padding: 10%;
   color: red;
-  /* background: rgba(0, 0, 0, 0.7) url('https://acegif.com/wp-content/gifs/book-42.gif'); */
-  /* background-image: url("https://acegif.com/wp-content/gifs/book-42.gif"); */
   background-size: cover;
   background-blend-mode: darken;
   border-radius: 0; 
@@ -133,9 +170,6 @@ img {
 .banner .container span {
   font-weight: 800;
 }
-
-/* missao visao valores */
-
 .social {
   border-color: #FF4500;
   background-color: black;
@@ -144,15 +178,6 @@ img {
 
 .social .container{
   justify-content: center;
- 
-}
-
-.box img {
-  display: flex;
-  width: 100px;
-  border-radius: 10% ;
-  border-color: #836FFF;
-  
 }
 
 .social .container .boxes {
@@ -165,24 +190,11 @@ img {
 }
 
 .cor .container .frase {
-color: antiquewhite;
-display: block;
-margin-left: auto;
-margin-right: auto;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-
-.box {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
 
 .box {
   margin-top: 100px;
@@ -191,14 +203,6 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   align-items: center;
 }
 
-.img img{
-  width: 600px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10%;
-  border-color: #FF4500;
-}
 
 .img .stars{
   flex-direction: column;
@@ -261,9 +265,6 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: rgb(255, 255, 255);
   display: flex;
   font-size: 15px;
-  /* background-image: url(""); */
-  /* background: linear-gradient(0, black, black); */
-
 }
 
 .footer .container {
@@ -271,7 +272,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
-/* AUTORA */
+/*  TEXTOS*/
 .body img {
   width: 600px;
   display: block;
@@ -289,6 +290,16 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 /* CADASTRO */
 
+.frasecadastro{
+  font-size: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+  color: #483D8B;
+  font-family: serif;
+}
+
 .banner .container .card {
   background-color: #836FFF;
   opacity: 10;  
@@ -298,8 +309,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   flex-direction: column;
   color: white;
   align-items: center;
-  border-radius: 0;
-
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.pinimg.com/originals/cf/21/44/cf2144d3931f386de487524133f43ba2.jpg');
 }
 
 .card {
@@ -423,23 +434,22 @@ input {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-right: 3px solid #32b9cd;
-  background-color: #212124;
-  /* border: 3px solid pink; */
+  border-right: 3px solid plum;
+  background-color: black;
 }
 
 .dash-right {
   display: flex;
   width: 75%;
   height: fit-content;
-  background-color: #161618;
+  background-color: black;
   position: relative;
   top: 0;
   left: 25%;
 }
 
 .header-left h1 {
-  color: #32b9cd;
+  color: #836FFF;
 }
 
 .hello {
@@ -461,7 +471,7 @@ input {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: orange;
+  background-color:  #836FFF;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -470,14 +480,14 @@ input {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid orange;
+  border: 3px solid   plum;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
 }
 
 .btn-nav-white h3 {
-  color:orange;
+  color:  #836FFF;
   padding: 0;
   margin: 0;
 }
@@ -501,11 +511,10 @@ input {
   cursor: pointer;
 }
 
-/* pagina extra - autora */
+
+/* pagina extra - textos */
 .autora {
   color: white;
-
-
 }
 
 .autora .container {
