@@ -63,7 +63,7 @@
                     <input id="nome_input" type="text" placeholder="Seu nome">
 
                     <span class="tipo_campo">E-mail:</span>
-                    <input id="email_input" type="text" placeholder="meuemail@gmail.com">
+                    <input input onkeyup="resultado()" id="email_input" type="text" placeholder="meuemail@gmail.com">
 
                     <span class="tipo_campo">Senha:</span>
                     <input id="senha_input" type="password" placeholder="******">
@@ -72,10 +72,11 @@
                     <input id="confirmacao_senha_input" type="password" placeholder="******">
 
                     <button class="btn" onclick="cadastrar()">Cadastrar</button>
+                    Email válido? <span id="span_resultado"></span>
 
                 </div>
                 <div id="div_aguardar" class="loading-div">
-                    <img src="./assets/circle-loading.gif" id="loading-gif">
+                    <img src="https://i.pinimg.com/originals/f6/06/cb/f606cbf26c0a18898b96ef6857953a75.gif" id="loading-gif">
                 </div>
 
                 <div id="div_erros_login">
@@ -162,5 +163,13 @@
     function sumirMensagem() {
         cardErro.style.display = "none"
     }
+    function resultado(){
+        var email = email_input.value
 
+        if(email.indexOf("@gmail.com") >-1 ){
+            span_resultado.innerHTML = `Sim` 
+        } else {
+            span_resultado.innerHTML = `Não`
+        }
+    }
 </script>
